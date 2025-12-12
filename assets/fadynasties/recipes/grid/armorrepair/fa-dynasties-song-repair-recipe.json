@@ -1,0 +1,317 @@
+[
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-steel-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-body-steel-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-meteoriciron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-body-meteoriciron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-iron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-body-iron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-steel-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-head-steel-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-meteoriciron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-iron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-head-iron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-steel-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-legs-steel-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-meteoriciron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-iron-song-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "song repair",
+		output: { type: "item", code: "fa-dynasties-legs-iron-song-{color}"
+		}
+	},
+]

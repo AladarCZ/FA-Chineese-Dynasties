@@ -1,0 +1,170 @@
+[
+	{
+		ingredientPattern: "GA_,IEI,FBF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-blackbronze"
+			},
+			"E": { type: "item", code: "game:armor-head-chain-steel", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 6
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming helmet",
+		output: { type: "item", code: "fa-dynasties-head-steel-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "GA_,IEI,FBF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-silver"
+			},
+			"E": { type: "item", code: "game:armor-head-chain-meteoriciron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 6
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming helmet",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "GA_,IEI,FBF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-zinc"
+			},
+			"E": { type: "item", code: "game:armor-head-chain-iron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 6
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming helmet",
+		output: { type: "item", code: "fa-dynasties-head-iron-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-steel-ming-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "Ming armor colored",
+		output: { type: "item", code: "fa-dynasties-head-steel-ming-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-meteoriciron-ming-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "Ming armor colored",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-ming-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-iron-ming-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "Ming armor colored",
+		output: { type: "item", code: "fa-dynasties-head-iron-ming-{color}"
+		}
+	},
+]

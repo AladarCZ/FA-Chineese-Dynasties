@@ -1,0 +1,133 @@
+{
+	"code": "fa-dynasties-legs",
+	"class": "ItemWearable",
+	"heldTpIdleAnimation": "holdunderarm",
+	"variantgroups": [
+		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel"]},
+		{ "code": "type",  "states": ["song", "ming"]},
+		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+	],
+	"allowedVariants": [
+		"*"
+	],
+	"shapeByType": 
+	{
+		"fa-dynasties-legs-*": { "base": "entity/armor/dynasties/{type}dynastieslegs" }
+	},
+	"texturesByType": {
+		"fa-dynasties-legs-*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"metallegs": { "base": "armor/entity/dynasties_{type}_{metallegs}" },
+			"line": { "base": "block/lines/line{line}" }
+				}
+	},
+	"storageFlags": 128,
+	"maxstacksize": 4,
+	"attributes": {
+		"visibleDamageEffect": true,
+		"wearableAttachment": true,
+		"clothescategoryByType": {
+			"*": "armorlegs",
+		},
+		"defaultProtLoss": {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		"protectionModifiersByType": {
+			"*-steel-song*": {
+				relativeProtection: 0.93,
+				flatDamageReduction: 1.7,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-meteoriciron-song*": {
+				relativeProtection: 0.91,
+				flatDamageReduction: 1.65,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-iron-song*": {
+				relativeProtection: 0.90,
+				flatDamageReduction: 1.6,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-steel-ming*": {
+				relativeProtection: 0.95,
+				flatDamageReduction: 1.7,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-meteoriciron-ming*": {
+				relativeProtection: 0.93,
+				flatDamageReduction: 1.65,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-iron-ming*": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.6,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+		},
+		"statModifiersByType": {
+			"*song*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.03,
+				walkSpeed: -0.05,
+				healingeffectivness: -0.10,
+				hungerrate: 0.10
+			},
+			"*ming*": {
+				rangedWeaponsAcc: -0.10,
+				rangedWeaponsSpeed: -0.10,
+				walkSpeed: -0.08,
+				healingeffectivness: -0.15,
+				hungerrate: 0.15
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorydynasties": ["*"] },
+	"renderAlphaTest": 0.25,
+	"durabilityByType": {
+		"*-iron-song*": 4400,
+		"*-meteoriciron-song*": 4700,
+		"*-steel-song*": 6500,
+		"*-iron-ming*": 5500,
+		"*-meteoriciron-ming*": 5800,
+		"*-steel-ming*": 7500,
+	},
+	"fpHandTransformByType": {
+		"*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	"tpHandTransformByType": {
+		"*": {
+			translation: { x: -0.7, y: -0.6, z: -0.4 },
+			rotation: { x: 95, y: -20, z: -91 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.74
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		},
+	},
+	"groundTransformByType": {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+	},
+}

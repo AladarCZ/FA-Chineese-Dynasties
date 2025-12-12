@@ -1,0 +1,164 @@
+[
+	{
+		ingredientPattern: "GAF,IEI,FFF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-head-chain-steel", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 10
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song helmet",
+		output: { type: "item", code: "fa-dynasties-head-steel-song-none"
+		}
+	},
+	{
+		ingredientPattern: "GA_,IEI,FFF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-head-chain-meteoriciron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 10
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song helmet",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-song-none"
+		}
+	},
+	{
+		ingredientPattern: "GA_,IEI,FFF",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-head-chain-iron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 10
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song helmet",
+		output: { type: "item", code: "fa-dynasties-head-iron-song-none"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-steel-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "song armor colored",
+		output: { type: "item", code: "fa-dynasties-head-steel-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-meteoriciron-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "song armor colored",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "_A_,_E_,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-head-iron-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 3,
+		name: "song armor colored",
+		output: { type: "item", code: "fa-dynasties-head-iron-song-{color}"
+		}
+	},
+]

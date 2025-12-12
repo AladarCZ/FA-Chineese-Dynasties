@@ -1,0 +1,164 @@
+[
+	{
+		ingredientPattern: "FIF,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-steel", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 16
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song leggins",
+		output: { type: "item", code: "fa-dynasties-legs-steel-song-none"
+		}
+	},
+	{
+		ingredientPattern: "FIF,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-meteoriciron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 16
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song leggins",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-song-none"
+		}
+	},
+	{
+		ingredientPattern: "FIF,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-iron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 16
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "song leggins",
+		output: { type: "item", code: "fa-dynasties-legs-iron-song-none"
+		}
+	},
+	{
+		ingredientPattern: "AEA,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-legs-steel-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "song leggins colored",
+		output: { type: "item", code: "fa-dynasties-legs-steel-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AEA,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-legs-meteoriciron-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "song leggins colored",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-song-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AEA,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-legs-iron-song-none"
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "song leggins colored",
+		output: { type: "item", code: "fa-dynasties-legs-iron-song-{color}"
+		}
+	},
+]
