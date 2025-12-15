@@ -1,0 +1,200 @@
+[
+	{
+		ingredientPattern: "BIB,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-blackbronze"
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-steel", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 8
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming leggins",
+		output: { type: "item", code: "fa-dynasties-legs-steel-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "BIB,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-silver"
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-meteoriciron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 8
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming leggins",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "BIB,FEF,GA_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
+			},
+			"B": { type: "item", code: "game:metalplate-zinc"
+			},
+			"E": { type: "item", code: "game:armor-legs-chain-iron", 
+			},
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 8
+			},
+			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			},
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
+			}
+		},
+		width: 3,
+		height: 3,
+		name: "Ming leggins",
+		output: { type: "item", code: "fa-dynasties-legs-iron-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "AEA,AGA",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:cloth-*", 
+					name: "color", 
+					allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white"
+				], quantity: 2
+			},
+			"E": { type: "item", code: "fa-dynasties-legs-*-ming-none",
+					name: "metal",
+					allowedVariants: [
+					"iron",
+					"meteoriciron",
+					"steel"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Ming leggins colored",
+		output: { type: "item", code: "fa-dynasties-legs-{metal}-ming-{color}"
+		}
+	},
+	{
+		ingredientPattern: "AE,BG",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", 
+					code: "game:armor-legs-hide-bear-*",
+					name: "bear",
+					allowedVariants: [
+					"black",
+					"brown",
+					"polar"
+				]
+			},
+			"E": { type: "item", 
+					code: "fa-dynasties-legs-*-ming-none",
+					name: "metal",
+					allowedVariants: [
+					"iron",
+					"meteoriciron",
+					"steel"
+				]
+			},
+			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+			"B": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
+			}
+		},
+		width: 2,
+		height: 2,
+		name: "gothi plate sallet",
+		output: { type: "item", code: "fa-dynasties-legs-{metal}-ming-bear-{bear}"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-legs-steel-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-steel-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-legs-meteoriciron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-ming-none"
+		}
+	},
+	{
+		ingredientPattern: "BCD,_A_",
+		recipeGroup: 1,
+		ingredients: {
+			"A": { type: "item", code: "fa-dynasties-legs-iron-*"
+			},
+			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
+			},
+			"C": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 100
+			},
+			"D": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
+			},
+		},
+		width: 3,
+		height: 2,
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-iron-ming-none"
+		}
+	}
+]
