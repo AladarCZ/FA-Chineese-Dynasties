@@ -112,7 +112,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", 
-					code: "game:armor-body-hide-bear-*",
+					code: "game:armor-head-hide-bear-*",
 					name: "bear",
 					allowedVariants: [
 					"black",
