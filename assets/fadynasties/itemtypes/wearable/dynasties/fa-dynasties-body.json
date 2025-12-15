@@ -4,26 +4,35 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metalbody",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "type",  "states": ["song", "ming"]},
-		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+		{ "code": "style",  "states": ["song", "ming"]},
+		{ "code": "textile",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
 	],
 	"allowedVariants": [
 		"*"
 	],
 	"shapeByType": 
 	{
-		"*": { "base": "entity/armor/dynasties/{type}dynastiesbody" },
+		"*bear*": { "base": "entity/armor/dynasties/{style}dynastiesbearbody" },
+		"*": { "base": "entity/armor/dynasties/{style}dynastiesbody" }
 	},
 	"texturesByType": {
+		"fa-dynasties-body-*bear*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"dynastybody": { "base": "armor/entity/dynasties_{style}_{metalbody}" },
+			"textile": { "base": "game:entity/humanoid/serapharmor/hide/bear/{textile}" }
+				},
 		"fa-dynasties-body-*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"metalbody": { "base": "armor/entity/dynasties_{type}_{metalbody}" },
+			"dynastybody": { "base": "armor/entity/dynasties_{style}_{metalbody}" },
 			"textile": { "base": "block/textiles/textile{textile}" }
-				},
+				}
 	},
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-dynasties-body-{metalbody}-{style}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
@@ -39,42 +48,56 @@
 		"protectionModifiersByType": {
 			"*-steel-song*": {
 				relativeProtection: 0.93,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-song*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 1.65,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-song*": {
 				relativeProtection: 0.90,
-				flatDamageReduction: 1.6,
+				flatDamageReduction: 2,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-steel-ming*": {
 				relativeProtection: 0.95,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 3.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-ming*": {
 				relativeProtection: 0.93,
-				flatDamageReduction: 1.65,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-ming*": {
 				relativeProtection: 0.92,
-				flatDamageReduction: 1.6,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
-			},
+			}
 		},
 		"statModifiersByType": {
+			"*song*bear*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.03,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.10,
+				hungerrate: 0.10
+			},
+			"*ming*bear*": {
+				rangedWeaponsAcc: -0.10,
+				rangedWeaponsSpeed: -0.10,
+				walkSpeed: -0.10,
+				healingeffectivness: -0.15,
+				hungerrate: 0.15
+			},
 			"*song*": {
 				rangedWeaponsAcc: -0.03,
 				rangedWeaponsSpeed: -0.03,

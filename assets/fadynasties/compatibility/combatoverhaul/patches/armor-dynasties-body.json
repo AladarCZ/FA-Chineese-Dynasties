@@ -8,41 +8,7 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
-          "fa-dynasties-body-steel-song*": {
-            "Layers": ["Outer","Middle"],
-            "Zones": ["Torso", "Arms", "Hands"],
-            "Resists": {
-              "PiercingAttack": 6,
-              "SlashingAttack": 7,
-              "BluntAttack": 4
-            },
-            "FlatReduction": {},
-            "PlayerStats": {
-              "walkspeed": -0.02,
-              "manipulationSpeed": -0.03,
-              "steadyAim": -0.03,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.09
-            }
-          },
-          "fa-dynasties-body-*iron-song*": {
-            "Layers": ["Outer","Middle"],
-            "Zones": ["Torso", "Arms", "Hands"],
-            "Resists": {
-              "PiercingAttack": 5,
-              "SlashingAttack": 6,
-              "BluntAttack": 3
-            },
-            "FlatReduction": {},
-            "PlayerStats": {
-              "walkspeed": -0.02,
-              "manipulationSpeed": -0.03,
-              "steadyAim": -0.03,
-              "healingeffectivness": -0.09,
-              "hungerrate": 0.09
-            }
-          },
-          "fa-dynasties-body-steel-ming*": {
+          "fa-dynasties-body-steel-songbear**": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
@@ -54,12 +20,12 @@
             "PlayerStats": {
               "walkspeed": -0.04,
               "manipulationSpeed": -0.06,
-              "steadyAim": -0.06,
-              "healingeffectivness": -0.11,
-              "hungerrate": 0.11
+              "steadyAim": -0.07,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
             }
           },
-          "fa-dynasties-body-*iron-ming*": {
+          "fa-dynasties-body-*iron-songbear**": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Torso", "Arms", "Hands"],
             "Resists": {
@@ -71,9 +37,111 @@
             "PlayerStats": {
               "walkspeed": -0.04,
               "manipulationSpeed": -0.06,
-              "steadyAim": -0.06,
-              "healingeffectivness": -0.11,
-              "hungerrate": 0.11
+              "steadyAim": -0.07,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-steel-ming*bear*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 9,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-*iron-ming*bear*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.05,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-steel-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.07,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-*iron-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.07,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-steel-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 9,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-body-*iron-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": -0.08,
+              "steadyAim": -0.17,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
             }
           }
         }
@@ -91,7 +159,7 @@
         "fa-dynasties-body-iron-song*": 9500,
         "fa-dynasties-body-steel-ming*": 25500,
         "fa-dynasties-body-meteoriciron-ming*": 14800,
-        "fa-dynasties-body-iron-ming*": 11500,
+        "fa-dynasties-body-iron-ming*": 11500
     }
   },
   {

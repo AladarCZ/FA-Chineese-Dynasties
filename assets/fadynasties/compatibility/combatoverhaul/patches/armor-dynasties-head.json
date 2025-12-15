@@ -8,41 +8,75 @@
       {
         "name": "CombatOverhaul:Armor",
         "propertiesByType": {
-          "fa-dynasties-head-steel-song*": {
+          "fa-dynasties-head-steel-song*bear*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Head", "Face", "Neck"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": 0,
+              "steadyAim": -0.02,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-head-*iron-song*bear*": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Head", "Face", "Neck"],
             "Resists": {
               "PiercingAttack": 6,
               "SlashingAttack": 7,
-              "BluntAttack": 4
-            },
-            "FlatReduction": {},
-            "PlayerStats": {
-              "walkspeed": 0,
-              "manipulationSpeed": 0,
-              "steadyAim": -0.02,
-              "healingeffectivness": -0.05,
-              "hungerrate": 0.05
-            }
-          },
-          "fa-dynasties-head-*iron-song*": {
-            "Layers": ["Outer","Middle"],
-            "Zones": ["Head", "Face", "Neck"],
-            "Resists": {
-              "PiercingAttack": 5,
-              "SlashingAttack": 6,
               "BluntAttack": 3
             },
             "FlatReduction": {},
             "PlayerStats": {
-              "walkspeed": 0,
+              "walkspeed": -0.02,
               "manipulationSpeed": 0,
               "steadyAim": -0.02,
-              "healingeffectivness": -0.05,
-              "hungerrate": 0.05
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
             }
           },
-          "fa-dynasties-head-steel-ming*": {
+          "fa-dynasties-head-steel-ming*bear*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Head", "Face", "Neck"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 9,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.04,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-head-*iron-ming*bear*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Head", "Face", "Neck"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.04,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-head-steel-song*": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Head", "Face", "Neck"],
             "Resists": {
@@ -54,12 +88,12 @@
             "PlayerStats": {
               "walkspeed": 0,
               "manipulationSpeed": 0,
-              "steadyAim": -0.04,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.08
+              "steadyAim": -0.02,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
             }
           },
-          "fa-dynasties-head-*iron-ming*": {
+          "fa-dynasties-head-*iron-song*": {
             "Layers": ["Outer","Middle"],
             "Zones": ["Head", "Face", "Neck"],
             "Resists": {
@@ -71,12 +105,46 @@
             "PlayerStats": {
               "walkspeed": 0,
               "manipulationSpeed": 0,
+              "steadyAim": -0.02,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-head-steel-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Head", "Face", "Neck"],
+            "Resists": {
+              "PiercingAttack": 8,
+              "SlashingAttack": 9,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.03,
               "steadyAim": -0.04,
-              "healingeffectivness": -0.08,
-              "hungerrate": 0.08
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
+            }
+          },
+          "fa-dynasties-head-*iron-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Head", "Face", "Neck"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.04,
+              "healingeffectivness": -0.07,
+              "hungerrate": 0.07
             }
           }
-        },
+        }
       }
     ]
   },
@@ -86,12 +154,12 @@
     "path": "/durabilityByType",
     "dependsOn": [{ "modId": "combatoverhaul" }],
     "value": {
-        "fa-dynasties-head-steel-song*": 10500,
-        "fa-dynasties-head-meteoriciron-song*": 5500,
-        "fa-dynasties-head-iron-song*": 4900,
-        "fa-dynasties-head-steel-ming*": 12500,
-        "fa-dynasties-head-meteoriciron-ming*": 7500,
-        "fa-dynasties-head-iron-ming*": 6900
+        "fa-dynasties-head-steel-song*": 8500,
+        "fa-dynasties-head-meteoriciron-song*": 4500,
+        "fa-dynasties-head-iron-song*": 3900,
+        "fa-dynasties-head-steel-ming*": 10500,
+        "fa-dynasties-head-meteoriciron-ming*": 6500,
+        "fa-dynasties-head-iron-ming*": 5900
     }
   },
   {

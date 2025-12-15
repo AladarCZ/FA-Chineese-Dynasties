@@ -5,29 +5,46 @@
 	"variantgroups": [
 		{ "code": "metalhead",  "states": ["iron", "meteoriciron", "steel"]},
 		{ "code": "type",  "states": ["song", "ming"]},
-		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none"]},
+		{ "code": "plume",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
+	],
+	"behaviors": [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.3, z2: 1 } } }
 	],
 	"allowedVariants": [
 		"*"
 	],
 	"shapeByType": 
 	{
-		"fa-dynasties-head-*": { "base": "entity/armor/dynasties/{type}dynastieshead" },
+		"fa-dynasties-head-*bear*": { "base": "entity/armor/dynasties/{type}dynastiesbearhead" },
+		"fa-dynasties-head-*": { "base": "entity/armor/dynasties/{type}dynastieshead" }
 	},
 	"texturesByType": {
+		"fa-dynasties-head-*bear*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"dynastyhead": { "base": "armor/entity/dynasties_{type}_{metalhead}" },
+			"plume": { "base": "game:entity/humanoid/serapharmor/hide/bear/{plume}" }
+				},
 		"fa-dynasties-head-*": { 
 			"seraph": { "base": "game:block/transparent" },
-			"metalhead": { "base": "armor/entity/dynasties_{type}_{metalhead}" },
+			"dynastyhead": { "base": "armor/entity/dynasties_{type}_{metalhead}" },
 			"plume": { "base": "block/plume/plume{plume}" }
 				}
 	},
 	"storageFlags": 128,
 	"maxstacksize": 4,
 	"attributes": {
+		"handbook": { 
+			"groupBy":["fa-dynasties-head-{metalhead}-{type}-*"]
+		},
 		"visibleDamageEffect": true,
 		"wearableAttachment": true,
 		"clothescategoryByType": {
-			"*": "armorhead",
+			"*": "armorhead"
+		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
 		},
 		"disableElementsByType": {
 			"*song*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"],
@@ -40,42 +57,56 @@
 		"protectionModifiersByType": {
 			"*-steel-song*": {
 				relativeProtection: 0.93,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-song*": {
 				relativeProtection: 0.91,
-				flatDamageReduction: 1.65,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-song*": {
 				relativeProtection: 0.90,
-				flatDamageReduction: 1.6,
+				flatDamageReduction: 2,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-steel-ming*": {
 				relativeProtection: 0.95,
-				flatDamageReduction: 1.7,
+				flatDamageReduction: 3.5,
 				highDamageTierResistant: true,
 				protectionTier: 4
 			},
 			"*-meteoriciron-ming*": {
 				relativeProtection: 0.93,
-				flatDamageReduction: 1.65,
+				flatDamageReduction: 3,
 				highDamageTierResistant: true,
 				protectionTier: 3
 			},
 			"*-iron-ming*": {
 				relativeProtection: 0.92,
-				flatDamageReduction: 1.6,
+				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
-			},
+			}
 		},
 		"statModifiersByType": {
+			"*song*bear*": {
+				rangedWeaponsAcc: -0.03,
+				rangedWeaponsSpeed: -0.03,
+				walkSpeed: -0.07,
+				healingeffectivness: -0.10,
+				hungerrate: 0.10
+			},
+			"*ming*bear*": {
+				rangedWeaponsAcc: -0.10,
+				rangedWeaponsSpeed: -0.10,
+				walkSpeed: -0.10,
+				healingeffectivness: -0.15,
+				hungerrate: 0.15
+			},
 			"*song*": {
 				rangedWeaponsAcc: -0.03,
 				rangedWeaponsSpeed: -0.03,
@@ -90,7 +121,12 @@
 				healingeffectivness: -0.15,
 				hungerrate: 0.15
 			}
-		}
+		},
+    	"groundStorageTransform": {
+      		translation: { x: -1.7, y: -1.31, z: 1.45 },
+      		rotation: { x: 0, y: 39, z: -11 },
+      		origin: { x: 0.5, y: -10, z: 0.5 }
+    	}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorydynasties": ["*"] },
 	"renderAlphaTest": 0.25,
@@ -100,7 +136,7 @@
 		"*-steel-song*": 6500,
 		"*-iron-ming*": 5500,
 		"*-meteoriciron-ming*": 5800,
-		"*-steel-ming*": 7500,
+		"*-steel-ming*": 7500
 	},
 	"fpHandTransformByType": {
 		"*": {
