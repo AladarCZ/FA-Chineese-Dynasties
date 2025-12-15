@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"dynastyhead": "armor/entity/dynasties_ming_steel",
+		"dynastyhead": "armor/entity/dynasties_song_steel",
 		"plume": "block/plume/plumered"
 	},
 	"elements": [
@@ -1688,23 +1688,24 @@
 					"faces": {
 						"north": { "texture": "#dynastyhead", "uv": [ 43.0, 25.0, 49.5, 26.0 ] },
 						"east": { "texture": "#dynastyhead", "uv": [ 44.5, 25.0, 49.5, 26.0 ] },
-						"south": { "texture": "#dynastyhead", "uv": [ 46.5, 25.0, 53.0, 26.0 ] },
+						"south": { "texture": "#dynastyhead", "uv": [ 45.5, 25.0, 52.0, 26.0 ] },
 						"west": { "texture": "#dynastyhead", "uv": [ 45.0, 25.0, 50.0, 26.0 ] },
 						"up": { "texture": "#dynastyhead", "uv": [ 43.0, 20.0, 49.5, 25.0 ] },
-						"down": { "texture": "#dynastyhead", "uv": [ 46.5, 20.0, 53.0, 25.0 ] }
+						"down": { "texture": "#dynastyhead", "uv": [ 45.5, 20.0, 52.0, 25.0 ] }
 					},
 					"children": [
 						{
 							"name": "HelmetTopRow1R",
 							"from": [ 1.0, 0.0, -0.7 ],
 							"to": [ 5.7, 1.3, 0.0 ],
+							"autoUnwrap": false,
 							"uv": [ 43.0, 22.5 ],
 							"rotationOrigin": [ 1.0, 0.0, -0.7 ],
 							"faces": {
 								"north": { "texture": "#dynastyhead", "uv": [ 43.0, 23.0, 47.5, 24.0 ] },
 								"east": { "texture": "#dynastyhead", "uv": [ 47.5, 23.0, 48.0, 24.0 ] },
 								"south": { "texture": "#dynastyhead", "uv": [ 48.0, 23.0, 52.5, 24.0 ] },
-								"west": { "texture": "#dynastyhead", "uv": [ 52.5, 23.0, 53.0, 24.0 ] },
+								"west": { "texture": "#dynastyhead", "uv": [ 51.5, 23.0, 52.0, 24.0 ] },
 								"up": { "texture": "#dynastyhead", "uv": [ 43.0, 22.5, 47.5, 23.0 ] },
 								"down": { "texture": "#dynastyhead", "uv": [ 47.5, 22.5, 52.0, 23.0 ] }
 							}
@@ -1713,13 +1714,14 @@
 							"name": "HelmetTopRow1L",
 							"from": [ 1.0, 0.0, 5.0 ],
 							"to": [ 5.7, 1.3, 5.7 ],
+							"autoUnwrap": false,
 							"uv": [ 43.5, 22.0 ],
 							"rotationOrigin": [ 1.0, 0.0, 5.0 ],
 							"faces": {
 								"north": { "texture": "#dynastyhead", "uv": [ 43.5, 22.5, 48.0, 23.5 ] },
 								"east": { "texture": "#dynastyhead", "uv": [ 48.0, 22.5, 48.5, 23.5 ] },
-								"south": { "texture": "#dynastyhead", "uv": [ 48.5, 22.5, 53.0, 23.5 ] },
-								"west": { "texture": "#dynastyhead", "uv": [ 53.0, 22.5, 53.5, 23.5 ] },
+								"south": { "texture": "#dynastyhead", "uv": [ 47.5, 22.5, 52.0, 23.5 ] },
+								"west": { "texture": "#dynastyhead", "uv": [ 52.0, 22.5, 52.5, 23.5 ] },
 								"up": { "texture": "#dynastyhead", "uv": [ 43.5, 22.0, 48.0, 22.5 ] },
 								"down": { "texture": "#dynastyhead", "uv": [ 48.0, 22.0, 52.5, 22.5 ] }
 							}
