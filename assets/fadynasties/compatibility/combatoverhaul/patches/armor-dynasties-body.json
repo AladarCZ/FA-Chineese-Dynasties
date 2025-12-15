@@ -1,0 +1,126 @@
+[
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-dynasties-body-steel-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.03,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "fa-dynasties-body-*iron-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 6,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.02,
+              "manipulationSpeed": -0.03,
+              "steadyAim": -0.03,
+              "healingeffectivness": -0.09,
+              "hungerrate": 0.09
+            }
+          },
+          "fa-dynasties-body-steel-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.11,
+              "hungerrate": 0.11
+            }
+          },
+          "fa-dynasties-body-*iron-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.04,
+              "manipulationSpeed": -0.06,
+              "steadyAim": -0.06,
+              "healingeffectivness": -0.11,
+              "hungerrate": 0.11
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "fa-dynasties-body-steel-song*": 23500,
+        "fa-dynasties-body-meteoriciron-song*": 12800,
+        "fa-dynasties-body-iron-song*": 9500,
+        "fa-dynasties-body-steel-ming*": 25500,
+        "fa-dynasties-body-meteoriciron-ming*": 14800,
+        "fa-dynasties-body-iron-ming*": 11500,
+    }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-body-*": 16 }
+  },  
+
+]

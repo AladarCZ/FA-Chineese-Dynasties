@@ -1,0 +1,126 @@
+[
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+          "fa-dynasties-legs-steel-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "fa-dynasties-legs-*iron-song*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 5,
+              "SlashingAttack": 6,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.03,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          },
+          "fa-dynasties-legs-steel-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 7,
+              "SlashingAttack": 8,
+              "BluntAttack": 4
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.08,
+              "hungerrate": 0.08
+            }
+          },
+          "fa-dynasties-legs-*iron-ming*": {
+            "Layers": ["Outer","Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {
+              "PiercingAttack": 6,
+              "SlashingAttack": 7,
+              "BluntAttack": 3
+            },
+            "FlatReduction": {},
+            "PlayerStats": {
+              "walkspeed": -0.06,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.08,
+              "hungerrate": 0.08
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+        "fa-dynasties-legs-steel-song*": 15500,
+        "fa-dynasties-legs-meteoriciron-song*": 8900,
+        "fa-dynasties-legs-iron-song*": 7500,
+        "fa-dynasties-legs-steel-ming*": 17500,
+        "fa-dynasties-legs-meteoriciron-ming*": 10900,
+        "fa-dynasties-legs-iron-ming*": 9500,
+    }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/statModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-legs",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-legs-*": 8 }
+  },  
+
+]
