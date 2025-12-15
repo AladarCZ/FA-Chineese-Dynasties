@@ -38,6 +38,11 @@
 		"clothescategoryByType": {
 			"*": "armorbody",
 		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
+		},
 		"footStepSoundByType": {
 			"fa-dynasties-body-*": "game:wearable/mail*",
 		},

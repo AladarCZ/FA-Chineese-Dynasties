@@ -35,6 +35,11 @@
 		"clothescategoryByType": {
 			"*": "armorlegs",
 		},
+		"warmthByType": {
+			"*-bear-black": 1,
+			"*-bear-brown": 1,
+			"*-bear-polar": 1.5
+		},
 		"handbook": { 
 			"groupBy":["fa-dynasties-legs-{metallegs}-{version}-*"]
 		},
