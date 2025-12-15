@@ -13,7 +13,7 @@
 					"steel"
 				]
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-steel",
+			"F": { type: "item", code: "game:metalnailsandstrips-*",
 					name: "metal",
 					allowedVariants: [
 					"iron",
