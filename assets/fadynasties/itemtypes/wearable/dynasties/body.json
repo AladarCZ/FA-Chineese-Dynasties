@@ -75,36 +75,83 @@
 			"name": "AttributeRenderingLibrary.Wearable",
 			"properties": {
 				"tagsCombine": {
-					"formbody-songbody::basebody-iron": ["fadynasties-songbody-iron"],
-					"formbody-songbody::basebody-meteoriciron": ["fadynasties-songbody-meteoriciron"],
-					"formbody-songbody::basebody-steel": ["fadynasties-songbody-steel"],
-
-					"coverbody-none": ["fadynasties-songbody-no-plating"],
-					"stripbody-none": ["fadynasties-songbody-no-trim"],
-					"decorationbody-none::colorbody-none": ["fadynasties-songbody-no-decoration"]
 				},
 				"textures": {
-					"coverbody-none::decorationbody-bear": {
+					"formbody-songbody::coverbody-none::decorationbody-bear": {
 						"seraph": { "base": "game:block/transparent" },
-						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/{formbody}/{basebody}" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/song/{basebody}" },
 						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 					},
-					"coverbody-*::decorationbody-bear": {
+					"formbody-songbody::coverbody-*::decorationbody-bear": {
 						"seraph": { "base": "game:block/transparent" },
-						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/{formbody}/{coverbody}" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/song/{coverbody}" },
 						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
 					},
-					"coverbody-none": {
+					"formbody-songbody::coverbody-none": {
 						"seraph": { "base": "game:block/transparent" },
-						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/{formbody}/{basebody}" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/song/{basebody}" },
 						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 					},
-					"coverbody-*": {
+					"formbody-songbody::coverbody-*": {
 						"seraph": { "base": "game:block/transparent" },
-						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/{formbody}/{coverbody}" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/song/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					},
+
+
+
+					"formbody-mingbody::coverbody-none::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/ming/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"formbody-mingbody::coverbody-*::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/ming/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"formbody-mingbody::coverbody-none": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/ming/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					},
+					"formbody-mingbody::coverbody-*": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/ming/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					},
+
+
+
+					"formbody-qingbody::coverbody-none::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/qing/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"formbody-qingbody::coverbody-*::decorationbody-bear": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/qing/{coverbody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:armor/entity/bear/{colorbody}" }
+					},
+					"formbody-qingbody::coverbody-none": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/base/qing/{basebody}" },
+						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
+						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
+					},
+					"formbody-qingbody::coverbody-*": {
+						"seraph": { "base": "game:block/transparent" },
+						"basebody": { "base": "fadynasties:armor/entity/dynasties/cover/qing/{coverbody}" },
 						"stripbody": { "base": "facore:armor/entity/trim/{stripbody}" },
 						"colorbody": { "base": "facore:block/decorations/body/{colorbody}" }
 					}
