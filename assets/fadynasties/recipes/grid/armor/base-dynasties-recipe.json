@@ -1,0 +1,1406 @@
+[
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-iron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-meteoriciron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-steel",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-iron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-meteoriciron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-steel",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-iron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-meteoriciron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Song scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-steel",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-iron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-meteoriciron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-steel",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-iron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-meteoriciron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-steel",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-iron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-meteoriciron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-scale-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Jin scale legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-steel",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-chain-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-iron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-chain-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-meteoriciron",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-head-chain-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 60
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain head armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-steel",
+			"attributes": {
+				"coverhead": "none",
+				"striphead": "none",
+				"decorationhead": "none",
+				"colorhead": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-chain-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-iron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-chain-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-meteoriciron",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-body-chain-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 16
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 100
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain body armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-steel",
+			"attributes": {
+				"coverbody": "none",
+				"stripbody": "none",
+				"decorationbody": "none",
+				"colorbody": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-zinc",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-chain-iron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-iron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-silver",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-chain-meteoriciron"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-meteoriciron",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-meteoriciron",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "FBF,IEI,GA_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:fa-dynasties-schematic",
+				"returnedStack": {
+					"type": "item",
+					"code": "fadynasties:fa-dynasties-schematic"
+				}
+			},
+			"B": {
+				"type": "item",
+				"code": "game:metalplate-blackbronze",
+				"quantity": 3
+			},
+			"E": {
+				"type": "item",
+				"code": "game:armor-legs-chain-steel"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 8
+			},
+			"G": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 80
+			},
+			"I": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Ming chain legs armor",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-steel",
+			"attributes": {
+				"coverlegs": "none",
+				"striplegs": "none",
+				"decorationlegs": "none",
+				"colorlegs": "none"
+			}
+		}
+	}
+]

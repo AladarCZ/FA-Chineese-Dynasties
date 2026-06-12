@@ -1,0 +1,922 @@
+{
+	"code": "scalehead",
+	"variantgroups": [
+		{ "code": "style", "states": ["song", "jin"] },
+		{ "code": "metal", "states": ["iron", "meteoriciron", "steel"] }
+	],
+	"maxstacksize": 1,
+	"attributes": {
+		"groundStorageTransform": {
+			"translation": { "y": 0.9, "z": 3.9, "x": -2.1 },
+			"rotation": { "y": 40, "z": -10, "x": -91 },
+			"scale": 2.45,
+			"origin": { "y": 0, "z": 0, "x": 0 }
+		}
+	},
+	"durabilityByType": { "*song-iron": 5500, "*song-meteoriciron": 5800, "*song-steel": 7500, "*jin-iron": 4400, "*jin-meteoriciron": 4700, "*jin-steel": 6500 },
+	"renderAlphaTest": 0.25,
+	"storageFlags": 128,
+	"behaviorsByType": {
+		"*song-iron": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "striphead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/iron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/iron/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/iron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/iron/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/song/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 3, "flatDamageReduction": 2.5, "relativeProtection": 0.92 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.15, "walkSpeed": -0.1, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 },
+						"*": { "healingeffectivness": -0.15, "walkSpeed": -0.08, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		],
+		"*song-meteoriciron": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "striphead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/meteoriciron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/meteoriciron/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/meteoriciron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/meteoriciron/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/song/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 3, "flatDamageReduction": 3, "relativeProtection": 0.93 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.15, "walkSpeed": -0.1, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 },
+						"*": { "healingeffectivness": -0.15, "walkSpeed": -0.08, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		],
+		"*song-steel": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "striphead", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/steel" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/steel/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/song/steel" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/steel/scale/song/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/song/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 4, "flatDamageReduction": 3.5, "relativeProtection": 0.95 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.15, "walkSpeed": -0.1, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 },
+						"*": { "healingeffectivness": -0.15, "walkSpeed": -0.08, "rangedWeaponsSpeed": -0.1, "rangedWeaponsAcc": -0.1, "hungerrate": 0.15 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		],
+		"*jin-iron": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "striphead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/iron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/iron/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/iron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/iron/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/jin/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 3, "flatDamageReduction": 2, "relativeProtection": 0.9 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.1, "walkSpeed": -0.07, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 },
+						"*": { "healingeffectivness": -0.1, "walkSpeed": -0.05, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		],
+		"*jin-meteoriciron": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "striphead", "states": ["bismuth", "brass", "copper", "gold", "lead", "none", "silver"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/meteoriciron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/meteoriciron/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/meteoriciron" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/meteoriciron/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/jin/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 3, "flatDamageReduction": 2.5, "relativeProtection": 0.91 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.1, "walkSpeed": -0.07, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 },
+						"*": { "healingeffectivness": -0.1, "walkSpeed": -0.05, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		],
+		"*jin-steel": [
+			{
+				"properties": {
+					"collisionBox": { "y2": 0.3, "z1": 0, "x1": 0, "y1": 0, "z2": 1, "x2": 1 },
+					"layout": "Quadrants"
+				},
+				"name": "GroundStorable"
+			},
+			{
+				"name": "AttributeRenderingLibrary.GenerateCreativeStacks",
+				"properties": {
+					"variantgroups": [
+						{ "code": "coverhead", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "striphead", "states": ["bismuth", "blackbronze", "bismuthbronze", "tinbronze", "brass", "copper", "cupronickel", "electrum", "gold", "lead", "meteoriciron", "none", "silver", "uranium", "zinc"] },
+						{ "code": "decorationhead", "states": ["none", "communis-pennae", "communis-pluma", "communis-crista", "bear"] },
+						{ "code": "colorhead", "states": ["none", "red", "rose", "green", "pine", "black", "blue", "navy", "brown", "white", "purple", "pink", "burgundy", "orange", "yellow", "gray", "plain"] }
+					],
+					"creativeinventory": { "forgottenarmorydynasties": ["*"], "forgottenarmory": ["coverhead-none::striphead-none::decorationhead-none::colorhead-none"] },
+					"skipvariants": [
+						"decorationhead-bear::colorhead-none",
+						"decorationhead-bear::colorhead-red",
+						"decorationhead-bear::colorhead-rose",
+						"decorationhead-bear::colorhead-green",
+						"decorationhead-bear::colorhead-pine",
+						"decorationhead-bear::colorhead-blue",
+						"decorationhead-bear::colorhead-navy",
+						"decorationhead-bear::colorhead-purple",
+						"decorationhead-bear::colorhead-pink",
+						"decorationhead-bear::colorhead-burgundy",
+						"decorationhead-bear::colorhead-orange",
+						"decorationhead-bear::colorhead-yellow",
+						"decorationhead-bear::colorhead-gray",
+						"decorationhead-bear::colorhead-plain",
+												"decorationhead-communis-pennae::colorhead-none",
+												"decorationhead-communis-crista::colorhead-none",
+												"decorationhead-communis-pluma::colorhead-none",
+						"decorationhead-none::colorhead-red",
+						"decorationhead-none::colorhead-rose",
+						"decorationhead-none::colorhead-green",
+						"decorationhead-none::colorhead-pine",
+						"decorationhead-none::colorhead-blue",
+						"decorationhead-none::colorhead-navy",
+						"decorationhead-none::colorhead-purple",
+						"decorationhead-none::colorhead-pink",
+						"decorationhead-none::colorhead-burgundy",
+						"decorationhead-none::colorhead-orange",
+						"decorationhead-none::colorhead-yellow",
+						"decorationhead-none::colorhead-gray",
+						"decorationhead-none::colorhead-white",
+						"decorationhead-none::colorhead-brown",
+						"decorationhead-none::colorhead-black",
+						"decorationhead-none::colorhead-plain"
+					]
+				}
+			},
+			{
+				"name": "AttributeRenderingLibrary.Wearable",
+				"properties": {
+					"textures": {
+						"coverhead-none::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/steel" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-*::decorationhead-bear": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/steel/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:armor/entity/bear/{colorhead}"
+							}
+						},
+						"coverhead-none": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": { "base": "fadynasties:armor/entity/dynasties/base/scale/jin/steel" },
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						},
+						"coverhead-*": {
+							"seraph": { "base": "game:block/transparent" },
+							"basehead": {
+								"base": "fadynasties:armor/entity/dynasties/cover/steel/scale/jin/{coverhead}"
+							},
+							"striphead": {
+								"base": "facore:armor/entity/trim/{striphead}"
+							},
+							"colorhead": {
+								"base": "facore:block/decorations/head/{colorhead}"
+							}
+						}
+					},
+					"shape": {
+						"*": {
+							"base": "fadynasties:entity/armor/dynasties/scalehead/jin/{decorationhead}head"
+						}
+					},
+					"warmth": { "decorationhead-bear::@colorhead-(black|brown)": 1, "decorationhead-bear::@colorhead-white": 1.5 },
+					"protectionModifiers": {
+						"*": { "highDamageTierResistant": true, "protectionTier": 4, "flatDamageReduction": 3, "relativeProtection": 0.93 }
+					},
+					"statModifiers": {
+						"decorationhead-bear": { "healingeffectivness": -0.1, "walkSpeed": -0.07, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 },
+						"*": { "healingeffectivness": -0.1, "walkSpeed": -0.05, "rangedWeaponsSpeed": -0.03, "rangedWeaponsAcc": -0.03, "hungerrate": 0.1 }
+					},
+					"visibleDamageEffect": { "*": true },
+					"clothesCategory": { "*": "armorhead" },
+					"defaultProtLoss": {
+						"*": { "perTierRelativeProtectionLoss": [0.03, 0.15], "perTierFlatDamagereductionLoss": [0.1, 0.2] }
+					},
+					"STFA_attachableToEntity": {
+						"categoryCode": { "*": "armorhead" },
+						"disableElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+					},
+					"description": {
+						"*": [
+							"-----------------------------",
+							"\u003cbr\u003e",
+							["Design: {0}", "decorationhead-{decorationhead}"],
+							"\u003cbr\u003e",
+							["Decoration: {0}", "colorhead-{colorhead}"],
+							"\u003cbr\u003e",
+							["Coating: {0}", "coverhead-{coverhead}"],
+							"\u003cbr\u003e",
+							["Trim: {0}", "striphead-{striphead}"],
+							"\u003cbr\u003e",
+							"-----------------------------",
+							"\u003cbr\u003e"
+						]
+					},
+					"shapeIgnoreElements": { "*": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "hidefacialhair", "sidehigh", "sidelow", "bangs"] }
+				}
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"fpHandTransform": {
+		"translation": { "y": -1.9, "z": -0.5, "x": 0.4 },
+		"rotation": { "y": -111, "z": -180, "x": 163 },
+		"scale": 2.15,
+		"origin": { "y": 1.7, "z": 0.5, "x": 0.5 }
+	},
+	"tpHandTransform": {
+		"translation": { "y": -2.2, "z": -0.5, "x": -0.82 },
+		"rotation": { "y": 169, "z": 30, "x": 18 },
+		"scale": 0.64,
+		"origin": { "y": 1.7, "z": 0.5, "x": 0.5 }
+	},
+	"guiTransform": {
+		"translation": { "y": 0, "z": 0, "x": 0 },
+		"rotation": { "y": -46, "z": -180, "x": -26 },
+		"scale": 2,
+		"origin": { "y": 1.72, "z": 0.5, "x": 0.6 }
+	},
+	"groundTransform": {
+		"translation": { "y": 0, "z": 0, "x": 0 },
+		"rotation": { "y": 0, "z": 0, "x": 0 },
+		"scale": 3.1,
+		"origin": { "y": 1.71, "z": 0.5, "x": 0.34 }
+	}
+}

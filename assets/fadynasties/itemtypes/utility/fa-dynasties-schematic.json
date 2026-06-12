@@ -13,7 +13,7 @@
 		"schematic": { "base": "utility/schematic-dynasties" },
 		"map-blank": { "base": "game:item/utility/map-blank" }
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmory": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "forgottenarmorydynasties": ["*"] },
 	"guiTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": -54, "y": -24, "z": -180 },

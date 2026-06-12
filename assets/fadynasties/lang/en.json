@@ -1,14 +1,32 @@
 {
-	"fadynasties:item-head": "dynasties Armet",
-	"fadynasties:item-body": "dynasties Chestplate",
-	"fadynasties:item-legs": "Greenwwich Legplate",
-
-	"game:formhead-armet": "Armet",
-
-	"game:formbody-guardbody": "Guard Chestplate",
-
-	"game:formlegs-guardlegs": "Guard Chestplate",
-
-	"fadynasties:item-fa-dynasties-rolled-schematic": "dynasties style (schematic rolled)",
-	"fadynasties:item-fa-dynasties-schematic": "dynasties style (schematic)"
+	"game:tabname-forgottenarmorydynasties": "Forgotten Armory Dynasties",
+	"fadynasties:item-fa-dynasties-schematic": "Chinese Dynasties armor schematic",
+	"fadynasties:item-fa-dynasties-rolled-schematic": "Rolled Chinese Dynasties armor schematic",
+	"fadynasties:item-scalebody-song-iron": "Song Iron Scale Armor",
+	"fadynasties:item-scalebody-song-meteoriciron": "Song Meteoric Iron Scale Armor",
+	"fadynasties:item-scalebody-song-steel": "Song Steel Scale Armor",
+	"fadynasties:item-scalebody-jin-iron": "Jin Iron Scale Armor",
+	"fadynasties:item-scalebody-jin-meteoriciron": "Jin Meteoric Iron Scale Armor",
+	"fadynasties:item-scalebody-jin-steel": "Jin Steel Scale Armor",
+	"fadynasties:item-scalehead-song-iron": "Song Iron Scale Helmet",
+	"fadynasties:item-scalehead-song-meteoriciron": "Song Meteoric Iron Scale Helmet",
+	"fadynasties:item-scalehead-song-steel": "Song Steel Scale Helmet",
+	"fadynasties:item-scalehead-jin-iron": "Jin Iron Scale Helmet",
+	"fadynasties:item-scalehead-jin-meteoriciron": "Jin Meteoric Iron Scale Helmet",
+	"fadynasties:item-scalehead-jin-steel": "Jin Steel Scale Helmet",
+	"fadynasties:item-scalelegs-song-iron": "Song Iron Scale Leggings",
+	"fadynasties:item-scalelegs-song-meteoriciron": "Song Meteoric Iron Scale Leggings",
+	"fadynasties:item-scalelegs-song-steel": "Song Steel Scale Leggings",
+	"fadynasties:item-scalelegs-jin-iron": "Jin Iron Scale Leggings",
+	"fadynasties:item-scalelegs-jin-meteoriciron": "Jin Meteoric Iron Scale Leggings",
+	"fadynasties:item-scalelegs-jin-steel": "Jin Steel Scale Leggings",
+	"fadynasties:item-chainbody-ming-iron": "Ming Iron Chain Armor",
+	"fadynasties:item-chainbody-ming-meteoriciron": "Ming Meteoric Iron Chain Armor",
+	"fadynasties:item-chainbody-ming-steel": "Ming Steel Chain Armor",
+	"fadynasties:item-chainhead-ming-iron": "Ming Iron Chain Helmet",
+	"fadynasties:item-chainhead-ming-meteoriciron": "Ming Meteoric Iron Chain Helmet",
+	"fadynasties:item-chainhead-ming-steel": "Ming Steel Chain Helmet",
+	"fadynasties:item-chainlegs-ming-iron": "Ming Iron Chain Leggings",
+	"fadynasties:item-chainlegs-ming-meteoriciron": "Ming Meteoric Iron Chain Leggings",
+	"fadynasties:item-chainlegs-ming-steel": "Ming Steel Chain Leggings"
 }

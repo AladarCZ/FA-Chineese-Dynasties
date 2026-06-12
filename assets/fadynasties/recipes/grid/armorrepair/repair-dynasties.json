@@ -1,0 +1,758 @@
+[
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-song-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-song-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-song-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-song-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-song-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-song-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-song-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-song-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-song-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-song-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-song-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Song scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-song-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-jin-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-jin-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalehead-jin-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalehead-jin-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-jin-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-jin-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalebody-jin-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalebody-jin-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-jin-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-jin-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:scalelegs-jin-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Jin scale legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:scalelegs-jin-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainhead-ming-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainhead-ming-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainhead-ming-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain head repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainhead-ming-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainbody-ming-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainbody-ming-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainbody-ming-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain body repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainbody-ming-steel"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainlegs-ming-iron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-iron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainlegs-ming-meteoriciron"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-meteoriciron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-meteoriciron"
+		}
+	},
+	{
+		"ingredientPattern": "AL,P_",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "fadynasties:chainlegs-ming-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			}
+		},
+		"copyAttributesFrom": "A",
+		"averageDurability": false,
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"name": "Ming chain legs repair",
+		"output": {
+			"type": "item",
+			"code": "fadynasties:chainlegs-ming-steel"
+		}
+	}
+]

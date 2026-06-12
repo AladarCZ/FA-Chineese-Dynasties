@@ -1,0 +1,179 @@
+[
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"*jin-iron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalebody-jin-iron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Torso", "Arms", "Hands"],
+							"Resists": {
+								"SlashingAttack": 7,
+								"PiercingAttack": 6,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.07,
+								"walkspeed": -0.02,
+								"manipulationSpeed": -0.06,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*jin-meteoriciron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalebody-jin-meteoriciron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Torso", "Arms", "Hands"],
+							"Resists": {
+								"SlashingAttack": 7,
+								"PiercingAttack": 6,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.07,
+								"walkspeed": -0.02,
+								"manipulationSpeed": -0.06,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*jin-steel": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalebody-jin-steel*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Torso", "Arms", "Hands"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 4
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.07,
+								"walkspeed": -0.02,
+								"manipulationSpeed": -0.06,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"op": "replace",
+		"path": "/durabilityByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"scalebody-jin-iron*": 9500,
+			"scalebody-jin-meteoriciron*": 12800,
+			"scalebody-jin-steel*": 23500
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-iron/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-iron/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-meteoriciron/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-meteoriciron/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-steel/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*jin-steel/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/class",
+		"value": "Item"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"clothesCategory": "armorbody"
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalebody",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "add",
+		"path": "/attributes/materialCountByType",
+		"value": {
+			"scalebody-*": 16
+		}
+	}
+]

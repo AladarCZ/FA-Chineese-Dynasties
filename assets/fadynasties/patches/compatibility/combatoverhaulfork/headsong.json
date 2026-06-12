@@ -1,0 +1,179 @@
+[
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"*song-iron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalehead-song-iron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*song-meteoriciron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalehead-song-meteoriciron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*song-steel": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"scalehead-song-steel*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 9,
+								"PiercingAttack": 8,
+								"BluntAttack": 4
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"op": "replace",
+		"path": "/durabilityByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"scalehead-song-iron*": 5900,
+			"scalehead-song-meteoriciron*": 6500,
+			"scalehead-song-steel*": 10500
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-iron/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-iron/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-meteoriciron/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-meteoriciron/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-steel/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*song-steel/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/class",
+		"value": "Item"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"clothesCategory": "armorhead"
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/scalehead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "add",
+		"path": "/attributes/materialCountByType",
+		"value": {
+			"scalehead-*": 8
+		}
+	}
+]

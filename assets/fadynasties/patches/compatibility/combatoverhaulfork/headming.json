@@ -1,0 +1,179 @@
+[
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"*ming-iron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainhead-ming-iron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*ming-meteoriciron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainhead-ming-meteoriciron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			],
+			"*ming-steel": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainhead-ming-steel*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Head", "Face", "Neck"],
+							"Resists": {
+								"SlashingAttack": 9,
+								"PiercingAttack": 8,
+								"BluntAttack": 4
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": -0.04,
+								"walkspeed": 0,
+								"manipulationSpeed": -0.03,
+								"hungerrate": 0.07,
+								"healingeffectivness": -0.07
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"op": "replace",
+		"path": "/durabilityByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"chainhead-ming-iron*": 5900,
+			"chainhead-ming-meteoriciron*": 6500,
+			"chainhead-ming-steel*": 10500
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-iron/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-iron/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-meteoriciron/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-meteoriciron/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-steel/2/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-steel/2/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/class",
+		"value": "Item"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"clothesCategory": "armorhead"
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainhead",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "add",
+		"path": "/attributes/materialCountByType",
+		"value": {
+			"chainhead-*": 8
+		}
+	}
+]

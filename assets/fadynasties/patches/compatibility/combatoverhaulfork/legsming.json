@@ -1,0 +1,179 @@
+[
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"*ming-iron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainlegs-ming-iron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Legs", "Feet"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": 0,
+								"walkspeed": -0.07,
+								"manipulationSpeed": 0,
+								"hungerrate": 0.08,
+								"healingeffectivness": -0.08
+							}
+						}
+					}
+				}
+			],
+			"*ming-meteoriciron": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainlegs-ming-meteoriciron*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Legs", "Feet"],
+							"Resists": {
+								"SlashingAttack": 8,
+								"PiercingAttack": 7,
+								"BluntAttack": 3
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": 0,
+								"walkspeed": -0.07,
+								"manipulationSpeed": 0,
+								"hungerrate": 0.08,
+								"healingeffectivness": -0.08
+							}
+						}
+					}
+				}
+			],
+			"*ming-steel": [
+				{ "name": "CombatOverhaul:WearableArmor" },
+				{
+					"name": "CombatOverhaul:Armor",
+					"propertiesByType": {
+						"chainlegs-ming-steel*": {
+							"Layers": ["Outer", "Middle"],
+							"Zones": ["Legs", "Feet"],
+							"Resists": {
+								"SlashingAttack": 9,
+								"PiercingAttack": 8,
+								"BluntAttack": 4
+							},
+							"FlatReduction": {},
+							"PlayerStats": {
+								"steadyAim": 0,
+								"walkspeed": -0.07,
+								"manipulationSpeed": 0,
+								"hungerrate": 0.08,
+								"healingeffectivness": -0.08
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"op": "replace",
+		"path": "/durabilityByType",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"value": {
+			"chainlegs-ming-iron*": 9500,
+			"chainlegs-ming-meteoriciron*": 10900,
+			"chainlegs-ming-steel*": 17500
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-iron/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-iron/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-meteoriciron/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-meteoriciron/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-steel/1/properties/protectionModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "remove",
+		"path": "/behaviorsByType/*ming-steel/1/properties/statModifiers"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/class",
+		"value": "Item"
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "addmerge",
+		"path": "/attributes",
+		"value": {
+			"clothesCategory": "armorlegs"
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/chainlegs",
+		"dependsOn": [
+			{ "modId": "combatoverhaulfork" }
+		],
+		"op": "add",
+		"path": "/attributes/materialCountByType",
+		"value": {
+			"chainlegs-*": 8
+		}
+	}
+]
