@@ -1,75 +1,75 @@
 [
 	{
-		ingredientPattern: "FBF,IEI,GA_",
+		ingredientPattern: "BIB,FEF,GA_",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
 			},
-			"B": { type: "item", code: "game:metalplate-blackbronze", quantity: 3
+			"B": { type: "item", code: "game:metalplate-blackbronze"
 			},
-			"E": { type: "item", code: "game:armor-body-chain-steel"
+			"E": { type: "item", code: "game:armor-legs-chain-steel", 
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 16
+			"F": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 8
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 8
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
 			}
 		},
 		width: 3,
 		height: 3,
-		name: "Ming armor",
-		output: { type: "item", code: "fa-dynasties-body-steel-ming-none"
+		name: "qing leggins",
+		output: { type: "item", code: "fa-dynasties-legs-steel-qing-none"
 		}
 	},
 	{
-		ingredientPattern: "FBF,IEI,GA_",
+		ingredientPattern: "BIB,FEF,GA_",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
 			},
-			"B": { type: "item", code: "game:metalplate-silver", quantity: 3
+			"B": { type: "item", code: "game:metalplate-silver"
 			},
-			"E": { type: "item", code: "game:armor-body-chain-meteoriciron", 
+			"E": { type: "item", code: "game:armor-legs-chain-meteoriciron", 
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 16
+			"F": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 8
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 8
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
 			}
 		},
 		width: 3,
 		height: 3,
-		name: "Ming armor",
-		output: { type: "item", code: "fa-dynasties-body-meteoriciron-ming-none"
+		name: "qing leggins",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-qing-none"
 		}
 	},
 	{
-		ingredientPattern: "FBF,IEI,GA_",
+		ingredientPattern: "BIB,FEF,GA_",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", code: "fa-dynasties-schematic", returnedStack: { "type": "item", "code": "fa-dynasties-schematic" }
 			},
-			"B": { type: "item", code: "game:metalplate-zinc", quantity: 3
+			"B": { type: "item", code: "game:metalplate-zinc"
 			},
-			"E": { type: "item", code: "game:armor-body-chain-iron", 
+			"E": { type: "item", code: "game:armor-legs-chain-iron", 
 			},
-			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 16
+			"F": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 8
 			},
 			"G": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
 			},
-			"I": { type: "item", code: "game:leather-normal-plain", quantity: 8
+			"I": { type: "item", code: "game:leather-normal-plain", quantity: 4
 			}
 		},
 		width: 3,
 		height: 3,
-		name: "Ming armor",
-		output: { type: "item", code: "fa-dynasties-body-iron-ming-none"
+		name: "qing leggins",
+		output: { type: "item", code: "fa-dynasties-legs-iron-qing-none"
 		}
 	},
 	{
-		ingredientPattern: "A_A,AEA,_G_",
+		ingredientPattern: "AEA,AGA",
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", 
@@ -88,9 +88,9 @@
 					"gray",
 					"black",
 					"white"
-				], quantity: 3
+				], quantity: 2
 			},
-			"E": { type: "item", code: "fa-dynasties-body-*-ming-none",
+			"E": { type: "item", code: "fa-dynasties-legs-*-qing-none",
 					name: "metal",
 					allowedVariants: [
 					"iron",
@@ -102,49 +102,16 @@
 			},
 		},
 		width: 3,
-		height: 3,
-		name: "Ming armor colored",
-		output: { type: "item", code: "fa-dynasties-body-{metal}-ming-{color}"
-		}
-	},
-	{
-		ingredientPattern: "AE,BG",
-		recipeGroup: 1,
-		ingredients: {
-			"A": { type: "item", 
-					code: "game:armor-body-hide-bear-*",
-					name: "bear",
-					allowedVariants: [
-					"black",
-					"brown",
-					"polar"
-				]
-			},
-			"E": { type: "item", 
-					code: "fa-dynasties-body-*-ming-none",
-					name: "metal",
-					allowedVariants: [
-					"iron",
-					"meteoriciron",
-					"steel"
-				]
-			},
-			"G": { type: "item", code: "game:shears-*", isTool: true, toolDurabilityCost: 100
-			},
-			"B": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 100
-			}
-		},
-		width: 2,
 		height: 2,
-		name: "gothi plate sallet",
-		output: { type: "item", code: "fa-dynasties-body-{metal}-ming-bear-{bear}"
+		name: "qing leggins colored",
+		output: { type: "item", code: "fa-dynasties-legs-{metal}-qing-{color}"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-body-steel-ming-*"
+			"A": { type: "item", code: "fa-dynasties-legs-steel-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -155,15 +122,15 @@
 		},
 		width: 3,
 		height: 2,
-		name: "Dynasties Body deplume",
-		output: { type: "item", code: "fa-dynasties-body-steel-ming-none"
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-steel-qing-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-body-meteoriciron-ming-*"
+			"A": { type: "item", code: "fa-dynasties-legs-meteoriciron-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -174,15 +141,15 @@
 		},
 		width: 3,
 		height: 2,
-		name: "Dynasties Body deplume",
-		output: { type: "item", code: "fa-dynasties-body-meteoriciron-ming-none"
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-qing-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-body-iron-ming-*"
+			"A": { type: "item", code: "fa-dynasties-legs-iron-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -193,8 +160,8 @@
 		},
 		width: 3,
 		height: 2,
-		name: "Dynasties Body deplume",
-		output: { type: "item", code: "fa-dynasties-body-iron-ming-none"
+		name: "Dynasties legs deplume",
+		output: { type: "item", code: "fa-dynasties-legs-iron-qing-none"
 		}
 	}
 ]

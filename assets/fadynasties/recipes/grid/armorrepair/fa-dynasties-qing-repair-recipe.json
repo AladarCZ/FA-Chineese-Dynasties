@@ -1,0 +1,344 @@
+[
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-steel-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-body-steel-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-meteoriciron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-body-meteoriciron-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-body-iron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 6
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-body-iron-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-steel-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-head-steel-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-meteoriciron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-head-iron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-head-iron-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-steel-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-steel", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-legs-steel-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-meteoriciron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-meteoriciron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-legs-meteoriciron-qing-{color}"
+		}
+	},
+	{
+		ingredientPattern: "BL,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "fa-dynasties-legs-iron-qing-*",  
+						name: "color", allowedVariants: [
+					"plain",
+					"blue",
+					"red",
+					"yellow",
+					"green",
+					"purple",
+					"pink",
+					"orange",
+					"brown",
+					"gray",
+					"black",
+					"white",
+					"none",
+					"bear-black",
+					"bear-brown",
+					"bear-polar"
+				]
+			},
+			"P": { type: "item", code: "game:metalnailsandstrips-iron", quantity: 3
+			},
+			"L": { type: "item", code: "game:leather-normal-plain"
+			}
+		},
+		width: 2,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		name: "qing repair",
+		output: { type: "item", code: "fa-dynasties-legs-iron-qing-{color}"
+		}
+	},
+]

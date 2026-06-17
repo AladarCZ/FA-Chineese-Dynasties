@@ -18,8 +18,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Ming helmet",
-		output: { type: "item", code: "fa-dynasties-head-steel-ming-none"
+		name: "maskedming helmet",
+		output: { type: "item", code: "fa-dynasties-head-steel-maskedming-none"
 		}
 	},
 	{
@@ -41,8 +41,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Ming helmet",
-		output: { type: "item", code: "fa-dynasties-head-meteoriciron-ming-none"
+		name: "maskedming helmet",
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-maskedming-none"
 		}
 	},
 	{
@@ -64,8 +64,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Ming helmet",
-		output: { type: "item", code: "fa-dynasties-head-iron-ming-none"
+		name: "maskedming helmet",
+		output: { type: "item", code: "fa-dynasties-head-iron-maskedming-none"
 		}
 	},
 	{
@@ -90,7 +90,7 @@
 					"white"
 				], quantity: 2
 			},
-			"E": { type: "item", code: "fa-dynasties-head-*-ming-none",
+			"E": { type: "item", code: "fa-dynasties-head-*-maskedming-none",
 					name: "metal",
 					allowedVariants: [
 					"iron",
@@ -103,8 +103,8 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Ming armor colored",
-		output: { type: "item", code: "fa-dynasties-head-{metal}-ming-{color}"
+		name: "maskedming armor colored",
+		output: { type: "item", code: "fa-dynasties-head-{metal}-maskedming-{color}"
 		}
 	},
 	{
@@ -112,7 +112,7 @@
 		recipeGroup: 1,
 		ingredients: {
 			"A": { type: "item", 
-					code: "game:armor-body-hide-bear-*",
+					code: "game:armor-head-hide-bear-*",
 					name: "bear",
 					allowedVariants: [
 					"black",
@@ -121,7 +121,7 @@
 				]
 			},
 			"E": { type: "item", 
-					code: "fa-dynasties-head-*-ming-none",
+					code: "fa-dynasties-head-*-maskedming-none",
 					name: "metal",
 					allowedVariants: [
 					"iron",
@@ -137,14 +137,14 @@
 		width: 2,
 		height: 2,
 		name: "gothi plate sallet",
-		output: { type: "item", code: "fa-dynasties-head-{metal}-ming-bear-{bear}"
+		output: { type: "item", code: "fa-dynasties-head-{metal}-maskedming-bear-{bear}"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-head-steel-ming-*"
+			"A": { type: "item", code: "fa-dynasties-head-steel-maskedming-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -156,14 +156,14 @@
 		width: 3,
 		height: 2,
 		name: "Dynasties head deplume",
-		output: { type: "item", code: "fa-dynasties-head-steel-ming-none"
+		output: { type: "item", code: "fa-dynasties-head-steel-maskedming-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-head-meteoriciron-ming-*"
+			"A": { type: "item", code: "fa-dynasties-head-meteoriciron-maskedming-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -175,14 +175,14 @@
 		width: 3,
 		height: 2,
 		name: "Dynasties head deplume",
-		output: { type: "item", code: "fa-dynasties-head-meteoriciron-ming-none"
+		output: { type: "item", code: "fa-dynasties-head-meteoriciron-maskedming-none"
 		}
 	},
 	{
 		ingredientPattern: "BCD,_A_",
 		recipeGroup: 1,
 		ingredients: {
-			"A": { type: "item", code: "fa-dynasties-head-iron-ming-*"
+			"A": { type: "item", code: "fa-dynasties-head-iron-maskedming-*"
 			},
 			"B": { type: "item", code: "game:wrench-*", isTool: true, toolDurabilityCost: 100
 			},
@@ -194,7 +194,7 @@
 		width: 3,
 		height: 2,
 		name: "Dynasties head deplume",
-		output: { type: "item", code: "fa-dynasties-head-iron-ming-none"
+		output: { type: "item", code: "fa-dynasties-head-iron-maskedming-none"
 		}
 	}
 ]

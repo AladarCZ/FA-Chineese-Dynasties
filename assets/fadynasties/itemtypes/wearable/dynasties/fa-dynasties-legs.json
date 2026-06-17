@@ -1,14 +1,19 @@
 {
 	"code": "fa-dynasties-legs",
-	"class": "ItemWearable",
 	"heldTpIdleAnimation": "holdunderarm",
 	"variantgroups": [
 		{ "code": "metallegs",  "states": ["iron", "meteoriciron", "steel"]},
-		{ "code": "version",  "states": ["song", "ming"]},
+		{ "code": "version",  "states": ["song", "ming", "qing"]},
 		{ "code": "line",  "states": ["red","green","black","blue","brown","white","purple","pink","orange","yellow","gray","plain","none","bear-black","bear-brown","bear-polar"]}
+	],	
+	"behaviors": [
+		{ "name": "Wearable" }
 	],
 	"allowedVariants": [
 		"*"
+	],
+	"skipVariants": [
+		"*-qing-bear-*"
 	],
 	"shapeByType": 
 	{
@@ -16,6 +21,12 @@
 		"fa-dynasties-legs-*": { "base": "entity/armor/dynasties/{version}dynastieslegs" }
 	},
 	"texturesByType": {
+		"fa-dynasties-legs-*qing*": { 
+			"seraph": { "base": "game:block/transparent" },
+			"baselegs": { "base": "armor/entity/dynasties_qing_{metallegs}" },
+			"striplegs": { "base": "game:block/transparent" },
+			"colorlegs": { "base": "game:block/transparent" }
+				},
 		"fa-dynasties-legs-*bear*": { 
 			"seraph": { "base": "game:block/transparent" },
 			"dynastylegs": { "base": "armor/entity/dynasties_{version}_{metallegs}" },
@@ -83,6 +94,24 @@
 				flatDamageReduction: 2.5,
 				highDamageTierResistant: true,
 				protectionTier: 3
+			},
+			"*-steel-qing*": {
+				relativeProtection: 0.87,
+				flatDamageReduction: 2.5,
+				highDamageTierResistant: true,
+				protectionTier: 4
+			},
+			"*-meteoriciron-qing*": {
+				relativeProtection: 0.84,
+				flatDamageReduction: 1.95,
+				highDamageTierResistant: true,
+				protectionTier: 3
+			},
+			"*-iron-qing*": {
+				relativeProtection: 0.83,
+				flatDamageReduction: 1.60,
+				highDamageTierResistant: true,
+				protectionTier: 3
 			}
 		},
 		"statModifiersByType": {
@@ -113,6 +142,13 @@
 				walkSpeed: -0.08,
 				healingeffectivness: -0.15,
 				hungerrate: 0.15
+			},
+			"*qing*": {
+				rangedWeaponsAcc: -0.04,
+				rangedWeaponsSpeed: -0.08,
+				walkSpeed: -0.03,
+				healingeffectivness: -0.10,
+				hungerrate: 0.10
 			}
 		}
 	},
@@ -125,6 +161,9 @@
 		"*-iron-ming*": 5500,
 		"*-meteoriciron-ming*": 5800,
 		"*-steel-ming*": 7500,
+		"*-iron-qing*": 3000,
+		"*-meteoriciron-qing*": 3500,
+		"*-steel-qing*": 4000,
 	},
 	"fpHandTransformByType": {
 		"*": {
